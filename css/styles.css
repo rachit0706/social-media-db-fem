@@ -1,0 +1,92 @@
+@import url('./base.css');
+@import url('./switch.css');
+@import url('./theme.css');
+
+.mode, .handle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mode {
+    align-items: center;
+}
+
+.handle {
+    gap: .7rem;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.total-followers {
+    display: block;
+}
+
+.total-followers, hr {
+    margin-bottom: 1rem;
+}
+
+
+.handle-name, h1, .total-followers, h2, .over-num, .change-num, .over-type {
+    font-weight: 700;
+}
+
+.over-num {
+    font-size: 1.7rem;
+}
+
+.change-num {
+    font-size: .8rem;
+}
+
+.change-icon {
+    margin-bottom: .1rem;
+}
+
+.main-card {
+    border-radius: .3rem;
+    /* border: 1px solid black; */
+    border-top: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+}
+
+.main-num {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.num-type {
+    text-transform: uppercase;
+    margin-top: -1rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.over-card {
+    padding: 1rem 1.5rem;
+    border-radius: .3rem;
+    /* border: 1px solid black; */
+}
+
+.over-top {
+    margin-bottom: 1rem;
+}
+
+.over-top, .over-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h2 {
+    margin: 2.5rem 0 1.5rem 0;
+}
+
